@@ -158,11 +158,17 @@ accordion {
   width: 100%;
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
-  /*margin-right: auto;
-  margin-left: auto;*/
-  background-image: url('https://hips.hearstapps.com/hmg-prod/images/general-view-as-wave-one-runners-start-the-120th-boston-news-photo-522264440-1551277908.jpg?crop=1xw:1xh;center,top&resize=980:*');
-  background-size: cover;
-  background-repeat: no-repeat;
+  margin-right: auto;
+  margin-left: auto;
+  /*background-image: url('https://hips.hearstapps.com/hmg-prod/images/general-view-as-wave-one-runners-start-the-120th-boston-news-photo-522264440-1551277908.jpg?crop=1xw:1xh;center,top&resize=980:*');
+  background-size: 700px 300px;
+  background-repeat: no repeat;*/
+}
+
+.image {
+  background-image: url('https://www.metro.us/wp-content/uploads/2020/02/boston_marathon_start.jpg');
+  background-repeat: no repeat;
+  background-size: contain;
 }
 
 .fw-semibold {
@@ -171,7 +177,7 @@ accordion {
 }
 
 .lead {
-  font-size: 1.5rem;
+  font-size: 1.13rem;
   font-weight: 300;
   color:white;
 }
