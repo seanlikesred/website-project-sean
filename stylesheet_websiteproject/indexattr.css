@@ -160,9 +160,6 @@ accordion {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
-  /*background-image: url('https://hips.hearstapps.com/hmg-prod/images/general-view-as-wave-one-runners-start-the-120th-boston-news-photo-522264440-1551277908.jpg?crop=1xw:1xh;center,top&resize=980:*');
-  background-size: 700px 300px;
-  background-repeat: no repeat;*/
 }
 
 .image {

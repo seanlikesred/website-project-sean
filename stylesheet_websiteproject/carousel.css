@@ -8,7 +8,6 @@ body {
   color: rgb(var(--bs-tertiary-color-rgb));
 }
 
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -20,6 +19,7 @@ body {
 .carousel-caption {
   bottom: 3rem;
   z-index: 10;
+  margin-left: -0px;
 }
 
 /* Declare heights because of positioning of img element */
@@ -104,6 +104,7 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
 .navbar-brand {
   padding-top: var(--bs-navbar-brand-padding-y);
   padding-bottom: var(--bs-navbar-brand-padding-y);
@@ -113,6 +114,7 @@ body {
   text-decoration: none;
   white-space: nowrap;
 }
+
 .navbar-brand:hover, .navbar-brand:focus {
   color: var(--bs-navbar-brand-hover-color);
 }
@@ -130,10 +132,12 @@ body {
   margin-bottom: 0;
   list-style: none;
 }
+
 .navbar-nav .show > .nav-link,
 .navbar-nav .nav-link.active {
   color: var(--bs-navbar-active-color);
 }
+
 .navbar-nav .dropdown-menu {
   position: static;
 }
@@ -143,6 +147,7 @@ body {
   padding-bottom: 0.5rem;
   color: var(--bs-navbar-color);
 }
+
 .navbar-text a,
 .navbar-text a:hover,
 .navbar-text a:focus {
@@ -170,9 +175,11 @@ body {
     transition: none;
   } 
 }
+
 .navbar-toggler:hover {
   text-decoration: none;
 }
+
 .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
