@@ -4039,6 +4039,7 @@ textarea.form-control-lg {
     overflow-y: visible;
   }
 }
+
 @media (min-width: 1400px) {
   .navbar-expand-xxl {
     flex-wrap: nowrap;
@@ -4086,30 +4087,38 @@ textarea.form-control-lg {
     overflow-y: visible;
   }
 }
+
 .navbar-expand {
   flex-wrap: nowrap;
   justify-content: flex-start;
 }
+
 .navbar-expand .navbar-nav {
   flex-direction: row;
 }
+
 .navbar-expand .navbar-nav .dropdown-menu {
   position: absolute;
 }
+
 .navbar-expand .navbar-nav .nav-link {
   padding-right: var(--bs-navbar-nav-link-padding-x);
   padding-left: var(--bs-navbar-nav-link-padding-x);
 }
+
 .navbar-expand .navbar-nav-scroll {
   overflow: visible;
 }
+
 .navbar-expand .navbar-collapse {
   display: flex !important;
   flex-basis: auto;
 }
+
 .navbar-expand .navbar-toggler {
   display: none;
 }
+
 .navbar-expand .offcanvas {
   position: static;
   z-index: auto;
@@ -4122,9 +4131,11 @@ textarea.form-control-lg {
   transform: none !important;
   transition: none;
 }
+
 .navbar-expand .offcanvas .offcanvas-header {
   display: none;
 }
+
 .navbar-expand .offcanvas .offcanvas-body {
   display: flex;
   flex-grow: 0;
@@ -4225,6 +4236,7 @@ textarea.form-control-lg {
   background-color: var(--bs-card-cap-bg);
   border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
 }
+
 .card-header:first-child {
   border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
 }
@@ -4245,6 +4257,7 @@ textarea.form-control-lg {
   margin-left: calc(-0.5 * var(--bs-card-cap-padding-x));
   border-bottom: 0;
 }
+
 .card-header-tabs .nav-link.active {
   background-color: var(--bs-card-bg);
   border-bottom-color: var(--bs-card-bg);
@@ -4286,6 +4299,7 @@ textarea.form-control-lg {
 .card-group > .card {
   margin-bottom: var(--bs-card-group-margin);
 }
+
 @media (min-width: 576px) {
   .card-group {
     display: flex;
